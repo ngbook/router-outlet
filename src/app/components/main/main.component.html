@@ -1,0 +1,17 @@
+<div class="main-container">
+    <div class="above-menu">
+        <a routerLink="./layout1" routerLinkActive="active">【内容1】</a> —
+        <a routerLink="./layout2" routerLinkActive="active">【内容2】</a>
+    </div>
+    <div class="below-menu">
+        <a [routerLink]="[{ outlets: { common: 'open' } }]">
+            【显示】
+        </a> /
+        <a [routerLink]="[{ outlets: { common: null } }]">
+            【隐藏】
+        </a>公共部分
+    </div>
+</div>
+<router-outlet></router-outlet>
+<hr>
+<router-outlet name="common"></router-outlet>

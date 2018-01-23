@@ -1,0 +1,15 @@
+.main-container {
+    padding: 20px;
+    overflow: auto;
+    a.active {
+        font-weight: 800;
+        color: darkgoldenrod;
+    }
+    .above-menu {
+        float: left;
+    }
+    .below-menu {
+        float: left;
+        margin-left: 100px;
+    }
+}

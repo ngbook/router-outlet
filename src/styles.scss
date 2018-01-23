@@ -1,0 +1,12 @@
+a {
+    text-decoration: none;
+    &:visited {
+        color: #e55d69;
+    }
+    &:hover {
+        color: #a71a26;
+    }
+}
+* {
+    box-sizing: border-box;
+}
